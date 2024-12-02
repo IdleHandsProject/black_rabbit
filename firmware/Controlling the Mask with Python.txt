@@ -1,0 +1,7 @@
+To run videos on the mask use mask_video.py
+
+Usage: python3 script.py <video_path> <pixel grid file>
+
+If some LEDs are left on run leds_off.py which will clear the mask
+
+Inside pixel_display_coordinates there is a processing file that shows you the layout of the different pixel grid patterns.

@@ -1,0 +1,18 @@
+(footprint "1x4_SMD_edge" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at -0.05 -4.05 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 74067e08-a520-4410-b0fa-9a030b62dedb)
+  )
+  (fp_text value "1x4_SMD_edge" (at -0.1 3.65 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 8a8d3d8e-b0a6-45fd-b5ad-3a24fb09183f)
+  )
+  (fp_text user "${REFERENCE}" (at -0.15 5 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 30e80eb4-74f7-4c39-9ed0-55bf671fb1e0)
+  )
+  (pad "1" smd rect (at 0 0) (size 1 4) (layers "F.Cu" "F.Paste" "F.Mask")
+    (thermal_bridge_angle 45) (tstamp 7f15f26b-0dbd-4793-9dac-6a5624093c73))
+)
